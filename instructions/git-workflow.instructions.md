@@ -22,7 +22,7 @@ Scopes: `parser`, `lexer`, `type-checker`, `invariant-checker`, `codegen`, `gas`
 
 ## Rules
 
-1. **ALWAYS `cd` into the repo directory before any git command** — the workspace root `/home/opeworld/Documents/RobustBrains/PEPL-Lang/` is NOT a git repo. Use `cd /home/opeworld/Documents/RobustBrains/PEPL-Lang/pepl` (or `pepl-stdlib`, `pepl-ui`, `.github`).
+1. **ALWAYS `cd` into the repo directory before any git command** — the workspace root is NOT a git repo. Use `cd <PEPL_WORKSPACE>/pepl` (or `pepl-stdlib`, `pepl-ui`, `.github`).
 2. `cargo build && cargo test` must pass before every commit (for Rust repos)
 3. **ALWAYS stage files before committing**: `git add .` (or `git add -A`) — without this, `git commit` has nothing to commit and `git push` pushes nothing.
 4. Full commit sequence: `git add . && git commit -m "type(scope): message" && git push`

@@ -48,12 +48,12 @@ For each batch:
    - Commit changes in the `.github` repo
 7. **Git commit & push** — ALWAYS `cd` into the specific repo directory first, ALWAYS `git add` before committing:
    ```bash
-   cd /home/opeworld/Documents/RobustBrains/PEPL-Lang/<repo>  # pepl, pepl-stdlib, or pepl-ui
+   cd <PEPL_WORKSPACE>/<repo>  # pepl, pepl-stdlib, or pepl-ui
    git add .  # MANDATORY — without this, nothing is staged and commit/push do nothing
    git commit -m "feat(scope): Phase X.Y — description"
    git push
    ```
-   **NEVER run git commands from `/home/opeworld/Documents/RobustBrains/PEPL-Lang/`** — it is NOT a git repo.
+   **NEVER run git commands from the PEPL workspace root** — it is NOT a git repo.
 8. **Report** — Confirm phase complete, state what's next
 
 ## Environment
